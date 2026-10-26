@@ -1,0 +1,12 @@
+# Kaggle competition files. See DATA.md. Do not commit.
+train_data.csv
+train_labels.csv
+
+# Office lock files and local clutter
+~$*
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
