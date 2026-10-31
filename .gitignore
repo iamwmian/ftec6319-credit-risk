@@ -2,6 +2,9 @@
 train_data.csv
 train_labels.csv
 
+# Derived samples. Several files are larger than GitHub's 100 MB file limit.
+samples/
+
 # Office lock files and local clutter
 ~$*
 .DS_Store
@@ -10,3 +13,5 @@ __pycache__/
 *.pyc
 .venv/
 .env
+.mplconfig/
+.cache/

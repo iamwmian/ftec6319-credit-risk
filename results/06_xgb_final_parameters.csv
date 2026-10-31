@@ -1,0 +1,2 @@
+n_trees,learning_rate,subsample_pct,feature_pct,weight_of_default,auc_train,auc_test1,auc_test2,mean_auc,std_auc,train_test2_gap,selection_score
+50.0,0.1,50.0,100.0,1.0,0.9357154169149676,0.9222486392781448,0.920900427709012,0.926288161300708,0.006688760718360604,0.014814989205955587,0.9195994005823475

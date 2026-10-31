@@ -20,10 +20,11 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parent
-TRAIN_DATA_PATH = DATA_DIR / "train_data.csv"
-TRAIN_LABELS_PATH = DATA_DIR / "train_labels.csv"
-OUTPUT_PATH = DATA_DIR / "development_sample.csv"
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+# Raw Kaggle files stay next to DATA.md. Derived samples live in samples/.
+TRAIN_DATA_PATH = PROJECT_DIR / "train_data.csv"
+TRAIN_LABELS_PATH = PROJECT_DIR / "train_labels.csv"
+OUTPUT_PATH = PROJECT_DIR / "samples" / "development_sample.csv"
 
 SEED = 42
 COLUMN_FRACTION = 0.10
@@ -175,6 +176,7 @@ def main():
         ["customer_ID", "S_2"], kind="mergesort"
     ).reset_index(drop=True)
 
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     temporary = OUTPUT_PATH.with_name(OUTPUT_PATH.name + ".tmp")
     development.to_csv(temporary, index=False)
     temporary.replace(OUTPUT_PATH)
