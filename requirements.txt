@@ -1,0 +1,24 @@
+# FTEC 6319 credit risk project.
+# Use Python 3.13. TensorFlow 2.21 has wheels for Python 3.10 through 3.13.
+# The Anaconda on this Mac is Python 3.14, which cannot install TensorFlow.
+
+# Development sample, one-hot encoding, account-level features, saved tables.
+numpy==2.4.6
+pandas==3.0.3
+
+# Train / Test 1 / Test 2 split, AUC, and StandardScaler.
+scipy==1.18.0
+scikit-learn==1.9.0
+
+# Grid-search scatter plots and rank-order bar charts.
+matplotlib==3.11.0
+seaborn==0.13.2
+
+# Both XGBoost models, feature importance, and the XGBoost grid search.
+xgboost==3.4.1
+
+# Neural net: hidden layers, dropout, Adam, and cross-entropy.
+tensorflow==2.21.0
+
+# Beeswarm and waterfall plots for the final XGBoost model.
+shap==0.54.1
