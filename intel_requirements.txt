@@ -1,0 +1,31 @@
+
+# FTEC 6319 Credit Risk Project
+# Python 3.12.16 - Intel Mac
+
+# Data preparation and analysis
+numpy==1.26.4
+pandas
+
+# Statistical analysis and machine learning
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+openpyxl
+
+# Credit risk modeling
+xgboost
+
+# Neural networks - Intel Mac compatible
+tensorflow==2.16.2
+
+# Model explainability - compatible with NumPy 1.x
+shap<0.52
+# Compatible SHAP dependencies for Python 3.12 Intel Mac
+numba==0.61.2
+llvmlite==0.44.0
+
+# Jupyter support
+ipykernel

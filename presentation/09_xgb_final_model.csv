@@ -1,0 +1,12 @@
+Item,Value
+Trees,50
+Learning rate,0.10
+Accounts per tree,50%
+Features per tree,100%
+Weight of a default,1
+Train AUC,0.936
+Test 1 AUC,0.922
+Test 2 AUC,0.921
+Average AUC,0.926
+Spread of AUC,0.007
+Selection score,0.920

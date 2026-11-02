@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "ftec6319-credit-risk",
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Cursor Dark",
+		"window.autoDetectColorScheme": false
+	}
+}

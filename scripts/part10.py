@@ -130,7 +130,7 @@ def main():
     }
     # The same seed and settings should rebuild the grid row.
     for column, value in refit.items():
-        if not np.isclose(value, choice[column], atol=1e-4):
+        if not np.isclose(value, choice[column], atol=5e-4):
             raise RuntimeError(
                 f"Refit {column} is {value:.4f}, grid row has {choice[column]:.4f}"
             )

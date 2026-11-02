@@ -1,0 +1,3 @@
+Strategy,Threshold,Train accepted,Train default rate,Train revenue,Test 1 accepted,Test 1 default rate,Test 1 revenue,Test 2 accepted,Test 2 default rate,Test 2 revenue
+Conservative,0.32,"42,729",4.87%,541.72,"9,159",5.80%,115.12,"9,161",5.95%,114.28
+Aggressive,0.54,"49,207",9.86%,766.53,"10,566",10.90%,162.03,"10,584",11.00%,161.14

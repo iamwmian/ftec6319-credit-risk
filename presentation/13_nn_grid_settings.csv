@@ -1,0 +1,7 @@
+Setting,Values,Why this setting is in the search
+Hidden layers,"2, 4",Two layers can combine the 36 features. Four layers can combine those combinations. The two shapes are trained in separate loops.
+Nodes per layer,"4, 6",More nodes give the layer more room to fit a pattern. Four and six stay small relative to 64,248 training accounts.
+Activation,"ReLU, tanh",ReLU passes a positive signal through. Tanh squashes every signal into a range from -1 to 1.
+Dropout,"50%, none",Dropping half the nodes on each update keeps the net from depending on one node. Keeping every node shows what that protection costs in accuracy.
+Batch size,"100, 10,000",A batch of 100 updates the weights often. A batch of 10,000 updates them on a much larger slice of the sample.
+Fixed,Adam / 20 epochs / binary cross-entropy,These do not change across the 32 models so the search measures the five settings above.

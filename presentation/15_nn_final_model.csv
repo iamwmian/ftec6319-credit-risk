@@ -1,0 +1,15 @@
+Item,Value
+Hidden layers,2
+Nodes in each layer,6
+Activation,relu
+Dropout,None
+Batch size,100
+Epochs,20
+Optimizer,Adam
+Loss,Binary cross-entropy
+Train AUC,0.921
+Test 1 AUC,0.917
+Test 2 AUC,0.916
+Average AUC,0.918
+Spread of AUC,0.002
+Selection score,0.916

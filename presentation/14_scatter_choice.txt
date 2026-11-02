@@ -1,0 +1,3 @@
+Average versus spread. The window shows the strongest settings. Twenty-four weaker settings sit to the left of it. The orange point is the only one on the winning-score line: 2 hidden layers, 6 nodes, ReLU, no dropout, batch size 100.
+
+Train versus Test 2. The same orange point is also the highest Test 2 AUC, 0.916. On this plot the two rules agree. Three weak settings, including one with AUC below 0.50, are outside the window. The points hug the equality line, so the neural net's train score and Test 2 score stay close together.
