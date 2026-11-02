@@ -1,0 +1,1 @@
+Recommend the conservative strategy. The aggressive book stays within 10% on the train sample, but it exceeds 10% on a held-out sample. The conservative book is the one that keeps the firm's limit.

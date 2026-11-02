@@ -1,0 +1,4 @@
+Feature,Missing,1st percentile,99th percentile,Train mean,Train scale
+B_37_Latest,0.00%,0.000,1.08,0.136,0.223
+D_110_Sum_12,99.11%,0.173,12.07,5.69,3.63
+S_27_Max_12,14.82%,0.003,3.46,0.469,0.467

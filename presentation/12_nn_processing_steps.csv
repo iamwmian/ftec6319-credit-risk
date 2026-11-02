@@ -1,0 +1,4 @@
+Step,Action,Rule
+1,Cap,Floor each feature at its train 1st percentile and cap it at its train 99th percentile. Empty cells do not set the fence.
+2,Standardize,Subtract the train average and divide by the train spread. Empty cells are skipped and stay empty.
+3,Fill,"Replace the remaining empty cells with 0, which is the train average after standardization."

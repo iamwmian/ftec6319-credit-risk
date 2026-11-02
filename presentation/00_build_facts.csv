@@ -1,0 +1,15 @@
+,value
+recommendation,"Recommend the conservative strategy. The aggressive book stays within 10% on the train sample, but it exceeds 10% on a held-out sample. The conservative book is the one that keeps the firm's limit."
+aggressive_holds,False
+default_kept,28
+specified_kept,14
+union_kept,36
+top5,"['D_48_Latest', 'B_37_Latest', 'B_28_YoY', 'D_48_Ave_12', 'D_48_Ave_3']"
+xgb_same,False
+nn_same,True
+xgb_best_test_auc,0.9217814614729972
+nn_best_test_auc,0.9163256075087728
+picked_pd,0.4300975203514099
+picked_y,0
+missing_spend,"{'Train': 11480, 'Test 1': 2378, 'Test 2': 2442}"
+slide1,"[{'Strategy': 'Conservative', 'Threshold': '0.32', 'Train accepted': '42,729', 'Train default rate': '4.87%', 'Train revenue': '541.72', 'Test 1 accepted': '9,159', 'Test 1 default rate': '5.80%', 'Test 1 revenue': '115.12', 'Test 2 accepted': '9,161', 'Test 2 default rate': '5.95%', 'Test 2 revenue': '114.28'}, {'Strategy': 'Aggressive', 'Threshold': '0.54', 'Train accepted': '49,207', 'Train default rate': '9.86%', 'Train revenue': '766.53', 'Test 1 accepted': '10,566', 'Test 1 default rate': '10.90%', 'Test 1 revenue': '162.03', 'Test 2 accepted': '10,584', 'Test 2 default rate': '11.00%', 'Test 2 revenue': '161.14'}]"

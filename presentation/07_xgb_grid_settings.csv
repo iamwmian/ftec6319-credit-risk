@@ -1,0 +1,6 @@
+Setting,Values,Why this setting is in the search
+Trees,"50, 100, 300",Extra trees can fit the train sample more tightly. These three counts show whether that extra fit still helps on Test 2.
+Learning rate,"0.01, 0.10",A smaller step changes each tree less. A larger step moves faster and can leave the train score far above the test score.
+Accounts per tree,"50%, 80%",Each tree then sees a different slice of accounts, so one unusual account does not set every split.
+Features per tree,"50%, 100%",A 50% draw makes neighboring trees use different features. A 100% draw lets every tree see the full list.
+Weight of a default,"1, 5, 10","Defaults are 25.65% of the sample. A heavier default pushes the trees to catch more of them."
