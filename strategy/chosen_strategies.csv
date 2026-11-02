@@ -1,0 +1,3 @@
+strategy,symbol,threshold,n_accepted,accept_rate,default_rate,expected_revenue,within_firm_limit,within_conservative_limit
+conservative,t_C,0.32,42729,0.6650635039223011,0.04865547988485572,541.7224327024505,True,True
+aggressive,t_A,0.54,49207,0.7658915452621093,0.0986241794866584,766.5342415332867,True,False

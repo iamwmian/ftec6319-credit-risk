@@ -1,0 +1,2 @@
+n_hidden_layers,n_nodes,activation,dropout_pct,batch_size,auc_train,auc_test1,auc_test2,mean_auc,std_auc,train_test2_gap,selection_score
+2,6,relu,100,100,0.9206011149611878,0.9171511130854731,0.9163256075087728,0.9180259451851446,0.0018518440171669797,0.004275507452415006,0.9161741011679776

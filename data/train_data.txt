@@ -1,0 +1,5 @@
+train_data.csv is not in this folder.
+
+It is the American Express Default Prediction training file: one row per monthly statement, about 15 GB. It was downloaded from the Kaggle competition, used by scripts/part4.py to build samples/development_sample.csv, and then deleted because of its size.
+
+To rebuild that sample, download train_data.csv into this folder again. Do not commit it. See DATA.md.

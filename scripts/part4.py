@@ -21,10 +21,13 @@ import numpy as np
 import pandas as pd
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-# Raw Kaggle files stay next to DATA.md. Derived samples live in samples/.
-TRAIN_DATA_PATH = PROJECT_DIR / "train_data.csv"
-TRAIN_LABELS_PATH = PROJECT_DIR / "train_labels.csv"
-OUTPUT_PATH = PROJECT_DIR / "samples" / "development_sample.csv"
+DATA_DIR = PROJECT_DIR / "data"
+SAMPLE_DIR = PROJECT_DIR / "samples"
+# Raw Kaggle files live in data/. train_data.csv was removed after use.
+# See data/train_data.txt. Derived samples live in samples/.
+TRAIN_DATA_PATH = DATA_DIR / "train_data.csv"
+TRAIN_LABELS_PATH = DATA_DIR / "train_labels.csv"
+OUTPUT_PATH = SAMPLE_DIR / "development_sample.csv"
 
 SEED = 42
 COLUMN_FRACTION = 0.10
